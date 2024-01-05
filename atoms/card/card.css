@@ -1,0 +1,53 @@
+
+.slide {
+    background-color: aliceblue;
+	max-width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: opacity 0.75s ease-in-out;
+}
+
+.slide.active {
+	opacity: 1;
+}
+
+.h2-card{
+    font-weight: bold;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.p-card{
+    font-size: small;
+}
+
+.img-card{
+    position: relative;
+    margin-right: 10px;
+    box-shadow: -1px 12px 12px 0px rgb(0 0 0 / 0.25);
+}
+
+.card-slider{
+    border-width: 1px;
+    border-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.card-info{
+    margin: 5px;
+    min-width: 180px;
+    padding: 10px;
+}
+
+.u{
+    max-width: 10px;
+}
+
+.icon-button-card{
+    position: absolute;
+    margin-left: 10%;
+}
+
